@@ -1,29 +1,25 @@
-# Cleaver Light
+# Cleaver Cumplo
 
-![Cleaver Light](cleaver-light.png)
+![Cleaver Cumplo](cleaver-cumplo.jpg)
 
-*Preview at http://svdb.co/cleaver-light/*
+***CleaverCumplo*** forked from [Cleaver Light](https://github.com/sjaakvandenberg/cleaver-light), uses ***Roboto*** for the body text and the headings and Fira Mono for `code`.
 
-**Cleaver** *Light* builds on [Cleaver Retro](http://github.com/jdan/cleaver-retro), uses ***Open Sans*** for the body text, Merriweather for the headings and Mozilla's Fira Mono for `code`.
-
-&mdash; [@svdb](https://www.twitter.com/svdb)
+&mdash; [@juanbrujo](https://github.com/juanbrujo)
 
 # Usage
 
-The easiest way to use Cleaver Light is to use the following YAML in your Markdown file: `theme: sjaakvandenberg/cleaver-light`.
+The easiest way to use Cleaver Cumplo is to use the following YAML in your Markdown file: `theme: Cumplo/cleaver-cumplo`.
 
 You can also fork or clone it to create your own version of it.
 
-    $ git clone git@github.com:sjaakvandenberg/cleaver-light.git
+    $ git clone git@github.com:Cumplo/cleaver-cumplo.git
+
+Then just compile using [Cleaver's CLI](https://github.com/jdan/cleaver): `cleaver youfile.md`
 
 ## File Structure
 
-    . cleaver-light
-    ├── fonts/
-    │   ├── fira/
-    │   ├── merriweather/
-    │   └── opensans/
-    ├── cleaver-light.png
+    . cleaver-cumplo
+    ├── cleaver-cumplo.png
     ├── template.mustache
     ├── layout.mustache
     ├── README.md
@@ -35,33 +31,8 @@ You can also fork or clone it to create your own version of it.
 ## Credits
 
 * [Cleaver](https://github.com/jdan/cleaver) and [Cleaver Retro](http://github.com/jdan/cleaver-retro) by [Jordan Scales](https://github.com/jdan)
-* [Open Sans](https://www.google.com/fonts/specimen/Open+Sans) by [Steve Matteson](https://en.wikipedia.org/wiki/Steve_Matteson)
-* [Merriweather](https://www.google.com/fonts/specimen/Merriweather) by [Eben Sorkin](http://sorkintype.com/)
-* [Fira Mono](https://mozilla.github.io/Fira/) by Mozilla
 * [Cleaver Light](https://github.com/sjaakvandenberg/cleaver-light) by [@svdb](https://www.twitter.com/svdb)
 
 ## License
 
-Cleaver Light
-
-The MIT License (MIT)
-
-Copyright (c) 2015 Sjaak van den Berg <mail@svdb.co>
-
-Permission is hereby granted, free of charge, to any person obtaining a
-copy of this software and associated documentation files (the "Software"),
-to deal in the Software without restriction, including without limitation
-the rights to use, copy, modify, merge, publish, distribute, sublicense,
-and/or sell copies of the Software, and to permit persons to whom the
-Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
+We preserve the author's [MIT License](LICENSE)
