@@ -77,8 +77,8 @@ img.badge {
 }
 
 .slide-content img {
-  width: 100%;
-  border-radius: 3px;
+  position: absolute;
+  height: 100%;
 }
 
 .controls {
